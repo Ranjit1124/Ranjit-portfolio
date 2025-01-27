@@ -1,7 +1,7 @@
 import { Link as ScrollLink } from 'react-scroll';
 import { Link } from 'react-router-dom';
 import { menuList } from "@utils/fackData/menuList"
-
+import { Meteor } from "@magic-ui/react";
 type Props = {
     isFixed: boolean
 }

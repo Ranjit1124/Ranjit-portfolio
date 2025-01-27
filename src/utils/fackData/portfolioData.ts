@@ -14,5 +14,14 @@ export const portfolioData = [
         link:'https://cadt-3d.vercel.app/'
 
     },
+    {
+        id:3,
+        title:"Ezhil Cars",
+        img:"/images/projects/work3.jpg",
+        category:"Branding",
+        link:'https://ezhilcars.vercel.app/'
+
+    },
+
 
 ]

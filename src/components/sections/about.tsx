@@ -36,7 +36,7 @@ const About = () => {
                     <div className="col-lg-6">
                         <div className="about-content-part rel z-2 rmb-55">
                             <SectionTitle className="mb-35">
-                                <SectionTitle.Name>About Me</SectionTitle.Name>
+                                <SectionTitle.Name className="text-pink-400">About Me</SectionTitle.Name>
                                 <SectionTitle.Title>
                                     A passionate <span>web designer</span> turning <span>ideas</span> into visually
                                     stunning, user-friendly websites.
