@@ -17,7 +17,7 @@ export const portfolioData = [
     {
         id:3,
         title:"Ezhil Cars",
-        img:"/images/projects/work3.jpg",
+        img:"/images/projects/work3.png",
         category:"Branding",
         link:'https://ezhilcars.vercel.app/'
 
