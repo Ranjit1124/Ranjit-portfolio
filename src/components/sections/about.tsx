@@ -22,12 +22,9 @@ const About = () => {
                                     <ambientLight intensity={0.5} />
                                     <directionalLight position={[10, 10, 5]} intensity={10} />
                                     <Model url="/models/personal_computer.glb"    />
-                                    <OrbitControls enableZoom={false} />
+                                    <OrbitControls enableZoom={false} enablePan={false} enableRotate={false}/>
                                 </Canvas>
                                
-                                <div className="dot-shape">
-                                    <img src="/images/shape/about-dot.png" alt="Shape" />
-                                </div>
                             </div>
                         </SlideUp>
                     </div>

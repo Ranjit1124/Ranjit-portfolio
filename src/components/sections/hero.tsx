@@ -17,14 +17,9 @@ const Hero = () => {
             <SlideUp className="hero-content rmb-25 text-center">
               <h2>Hi! 👋 My name is Ranjit P R</h2>
               <h1><span>Fullstack</span> developer and <span>ThreeJS</span> Developer</h1>
-              <div className="dot-shape">
-                <img src="/images/shape/about-dot.png" alt="Shape" />
-              </div>
-              <div className="dot-shape2">
-                <img src="/images/shape/dot-shape-circle.png" alt="Shape" />
-              </div>
+              
               <div className="hero-btns">
-                <a href="https://drive.google.com/file/d/1Lt6M0F9tNqhOm4oUXmMdg4BcZol3453U/view?usp=sharing" target="_blank"  className="theme-btn">Hire Me <i className="far fa-angle-right" /></a>
+                <a href="https://drive.google.com/file/d/16dfX4bcQahWy4iPXbs2Rl-TAWrevKuqc/view?usp=sharing" target="_blank"  className="theme-btn">Hire Me <i className="far fa-angle-right" /></a>
               </div>
             </SlideUp>
             {/* / END HERO DESIGN AREA */}
