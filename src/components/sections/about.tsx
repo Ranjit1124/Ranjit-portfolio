@@ -15,25 +15,13 @@ const About = () => {
             <div className="container">
                 <div className="row gap-100 align-items-center">
                     {/* START ABOUT IMAGE DESIGN AREA */}
-                    <div className="col-lg-6">
-                        <SlideUp delay={3}>
-                            <div className="about-image-part">
-                                <Canvas camera={{ position: [-2, 1, 3], fov: 50 }} style={{ height: "500px",width:"600px", }}>
-                                    <ambientLight intensity={0.5} />
-                                    <directionalLight position={[10, 10, 5]} intensity={10} />
-                                    <Model url="/models/personal_computer.glb"    />
-                                    <OrbitControls enableZoom={false} enablePan={false} enableRotate={false}/>
-                                </Canvas>
-                               
-                            </div>
-                        </SlideUp>
-                    </div>
+                    
                     {/* / END ABOUT IMAGE DESIGN AREA */}
                     {/* START ABOUT TEXT DESIGN AREA */}
-                    <div className="col-lg-6">
+                    <div className="col-xl-12">
                         <div className="about-content-part rel z-2 rmb-55">
-                            <SectionTitle className="mb-35">
-                                <SectionTitle.Name className="text-pink-400">About Me</SectionTitle.Name>
+                            <SectionTitle >
+                                <SectionTitle.Name className="text-center">About Me</SectionTitle.Name>
                                 <SectionTitle.Title>
                                     A passionate <span>web designer</span> turning <span>ideas</span> into visually
                                     stunning, user-friendly websites.
