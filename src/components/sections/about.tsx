@@ -1,23 +1,11 @@
 import SectionTitle from "@components/ui/sectionTitle";
 import SlideUp from "@utils/animations/slideUp";
-import { Canvas } from "@react-three/fiber";
-import { OrbitControls, useGLTF } from "@react-three/drei";
 
-// Model Loader Component
-const Model = ({ url }: { url: string }) => {
-    const { scene } = useGLTF(url);
-    
-    return <primitive object={scene} scale={[1.5,1.5,1.5]} position={[0,0,0]}/>;
-};
 const About = () => {
     return (
         <section id="about" className="about-area">
             <div className="container">
                 <div className="row gap-100 align-items-center">
-                    {/* START ABOUT IMAGE DESIGN AREA */}
-                    
-                    {/* / END ABOUT IMAGE DESIGN AREA */}
-                    {/* START ABOUT TEXT DESIGN AREA */}
                     <div className="col-xl-12">
                         <div className="about-content-part rel z-2 rmb-55">
                             <SectionTitle >
@@ -43,7 +31,6 @@ const About = () => {
                             </SlideUp>
                         </div>
                     </div>
-                    {/* / END ABOUT TEXT DESIGN AREA */}
                 </div>
             </div>
         </section>
