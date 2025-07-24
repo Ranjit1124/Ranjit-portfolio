@@ -16,7 +16,7 @@ const Contact = () => {
     setTimeout(() => setMessage(""), 500);
   }
 
-  if (state.errors && state.errors.length > 0) {
+  if (state.errors ) {
     setMessage("Something went wrong. Please try again.");
     setTimeout(() => setMessage(""), 500);
   }
