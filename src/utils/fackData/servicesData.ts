@@ -7,21 +7,21 @@ type DataType = {
 export const servicesData: DataType = [
     {
         id: 1,
-        title: "Brand Identity Design",
-        icon: "fas fa-yin-yang",
-        description: "Ranjit gives you the blocks & kits you need to create a true website within minutes."
+        title: "Full Stack Development",
+        icon: "fas fa-code-branch",
+        description: "Building scalable web applications with modern frontend, backend, and database technologies to deliver complete end-to-end solutions."
     },
     {
         id: 2,
-        title: "Website Design",
-        icon: "fas fa-vector-square",
-        description: "Ranjit gives you the blocks & kits you need to create a true website within minutes."
+        title: "Three.js Development",
+        icon: "fas fa-cube",
+        description: "Creating immersive 3D experiences, interactive visualizations, and animations using WebGL and Three.js for the modern web."
     },
     {
         id: 3,
-        title: "Application Design",
-        icon: "fas fa-layer-group",
-        description: "Ranjit gives you the blocks & kits you need to create a true website within minutes."
+        title: "App Development",
+        icon: "fas fa-mobile-alt",
+        description: "Designing and developing high-performing mobile applications with seamless UI/UX, cross-platform support, and smooth integrations."
     },
 
 ]

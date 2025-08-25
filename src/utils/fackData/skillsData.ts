@@ -14,7 +14,7 @@ export const skillsData: DataType = [
     },
     {
         id: 2,
-        title: "Tailwand",
+        title: "Tailwind",
         img: "/images/skills/skill2.png",
         progress: "90%"
     },
@@ -38,8 +38,8 @@ export const skillsData: DataType = [
     },
     {
         id: 6,
-        title: "React-Three-fibre",
-        img: "/images/skills/skill6.png",
+        title: "React-Native",
+        img: "/images/skills/react_native.png",
         progress: "70%"
     },
     {

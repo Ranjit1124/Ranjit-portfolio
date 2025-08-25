@@ -10,7 +10,7 @@ const Services = () => {
                     <div className="col-xl-6 col-lg-8">
                         <SectionTitle className="text-center mb-60">
                             <SectionTitle.Name>Services</SectionTitle.Name>
-                            <SectionTitle.Title> My <span>Special Service</span> For your Website Development</SectionTitle.Title>
+                            <SectionTitle.Title> Crafting <span>Unique</span> Digital Experiences</SectionTitle.Title>
                         </SectionTitle>
                     </div>
                 </div>

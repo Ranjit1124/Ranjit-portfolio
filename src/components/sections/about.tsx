@@ -21,12 +21,12 @@ const About = () => {
                             </SectionTitle>
                             <SlideUp delay={2}>
                                 <ul className="list-style-one two-column">
-                                    <li>Logo Design</li>
-                                    <li>Social Marketing</li>
+                                    <li>App Development</li>
+                                    <li>Admin page Integration</li>
                                     <li>3D Development</li>
                                     <li>Website Development</li>
                                     <li>Web Design</li>
-                                    <li className="mb-3">Product Design</li>
+                                    <li className="mb-3">Maintenance & Updates</li>
                                 </ul>
                             </SlideUp>
                         </div>
