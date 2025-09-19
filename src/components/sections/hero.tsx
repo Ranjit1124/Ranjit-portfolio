@@ -19,7 +19,7 @@ const Hero = () => {
               <h1><span>Fullstack</span> developer and <span>ThreeJS</span> Developer</h1>
               
               <div className="hero-btns">
-                <a href="https://drive.google.com/file/d/1WfPVpu1Vc2daXMPQyEKaust5C1kXhKdl/view?usp=sharing" target="_blank"  className="theme-btn">Hire Me <i className="far fa-angle-right" /></a>
+                <a href="https://drive.google.com/file/d/1qmavCC1xt5Bvy8oQG3MTokja7altaZnN/view?usp=sharing" target="_blank"  className="theme-btn">Hire Me <i className="far fa-angle-right" /></a>
               </div>
             </SlideUp>
             {/* / END HERO DESIGN AREA */}
