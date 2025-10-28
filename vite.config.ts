@@ -11,6 +11,9 @@ export default defineConfig({
       '@utils': path.resolve(__dirname, 'src/utils'),
       '@pages': path.resolve(__dirname, 'src/pages'),
       '@layout': path.resolve(__dirname, 'src/layout')
-    }
-  }
+    },
+  },
+  build: {
+    chunkSizeWarningLimit: 1600, // ⚡ increases limit from 500 KB → 1.6 MB
+  },
 })
